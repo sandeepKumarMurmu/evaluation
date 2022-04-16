@@ -1,0 +1,14 @@
+.navBar {
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.navBar div {
+  border: 1px solid black;
+}

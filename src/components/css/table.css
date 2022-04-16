@@ -1,0 +1,11 @@
+.table,
+.body {
+  margin: auto;
+  border: 1px solid black;
+  width: 500px;
+}
+
+td {
+  width: fit-content;
+  border: 1px solid black;
+}
