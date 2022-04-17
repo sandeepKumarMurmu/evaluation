@@ -2,9 +2,21 @@
   "details": [
     {
       "Country": "india",
-      "City": "dhanbad",
-      "Population": "15368",
-      "id": 1
+      "City": "delhi",
+      "Population": "2546",
+      "id": 2
+    },
+    {
+      "Country": "india",
+      "City": "kolkata",
+      "Population": "2536",
+      "id": 3
+    },
+    {
+      "Country": "india",
+      "City": "hariyana",
+      "Population": "4523",
+      "id": 4
     }
   ],
   "countries": [
@@ -15,6 +27,34 @@
     {
       "country": "india",
       "id": 2
+    },
+    {
+      "country": "nepal",
+      "id": 3
+    },
+    {
+      "country": "india",
+      "id": 4
+    },
+    {
+      "country": "india",
+      "id": 5
+    },
+    {
+      "country": "india",
+      "id": 6
+    },
+    {
+      "country": "india",
+      "id": 7
+    },
+    {
+      "country": "india",
+      "id": 8
+    },
+    {
+      "country": "india",
+      "id": 9
     }
   ]
 }

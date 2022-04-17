@@ -5,9 +5,22 @@ import "../css/country.css";
 
 export const AddCounty = () => {
   const [country, setCountry] = useState({ country: "" });
-  const [countryData, setCountryData] = useState([]);
+  // const [countryData, setCountryData] = useState([]);
   function check() {
-    axios.post("http://localhost:3004/countries", country);
+    let pushIt = true;
+    axios.get("http://localhost:3004/countries").then(({ data }) => {
+      for (var i = 0; i < data.length; i++) {
+        if (data[i].country === country.country) {
+          console.log(i);
+          pushIt = false;
+          break;
+        }
+      }
+    });
+    if (pushIt) {
+      console.log("inside", pushIt);
+      axios.post("http://localhost:3004/countries", country);
+    }
   }
   return (
     <>
