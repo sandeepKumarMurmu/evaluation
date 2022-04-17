@@ -17,7 +17,12 @@ export const Table = () => {
     });
   }
   return (
-    <table className="table">
+    <>
+      <div className="filters">
+        <select name="" id=""></select>
+        <button>ascending </button>
+        <button>decending</button>
+      </div>
       <table className="body">
         <thead>
           <tr>
@@ -46,6 +51,6 @@ export const Table = () => {
           ))}
         </tbody>
       </table>
-    </table>
+    </>
   );
 };
